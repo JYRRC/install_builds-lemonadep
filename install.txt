@@ -1,0 +1,21 @@
+########################Installation method for builds Lemonadep oneplus 9 pro##################################
+
+
+
+-(1) Flash bliss recovery on both slots
+
+fastboot flash boot boot.img
+fastboot flash dtbo dtbo.img
+fastboot flash vendor_boot vendor_boot.img
+
+
+(2) Boot into recovery.
+(3) Enter "apply update from ADB"
+(4) Type the following command from your pc
+
+adb sideload (rom).zip
+
+(5) Format data from recovery
+(6) Reboot to system 
+
+
