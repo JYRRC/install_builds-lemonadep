@@ -20,3 +20,23 @@ adb sideload rom.zip
 Start System
 
 
+(2) If you are already on the necessary firmware indicated in the notes, use this installation method
+
+fastboot flash boot boot.img
+fastboot flash dtbo dtbo.img
+fastboot flash vendor_boot vendor_boot.img
+
+Restart in recovery
+
+Format data for install clean or wipe cache for dirty
+
+Restart recovery
+
+Choose apply update and Apply from ADB
+
+adb sideload rom.zip
+
+Start System
+
+
+
