@@ -2,21 +2,21 @@
 
 
 
-(1) Flash bliss recovery on both slots
+(1) Flash Firmware Into fastboot (update firmware.bat in windows)-(update firmware.sh in linux)
 
-fastboot flash boot boot.img
-fastboot flash dtbo dtbo.img
-fastboot flash vendor_boot vendor_boot.img
+Firmware included
+boot.img
+dbto.img
+vendor_boot.img
 
+Now in recovery go to factory reset and confirm the reset
 
-(2) Boot into recovery.
-(3) Install firmware
-(4) Enter "apply update from ADB"
-(5) Type the following command from your pc
+Reboot to recovery
 
-adb sideload (rom).zip
+Choose apply update and Apply from ADB
 
-(6) Format data from recovery
-(7) Reboot to system 
+adb sideload rom.zip
+
+Start System
 
 
